@@ -1,0 +1,380 @@
+{
+  "menu":
+  {
+    "menu_1":
+    {
+      "company":"회사소개",
+      "sub_1":"인사말",
+      "sub_2":"회사연혁",
+      "sub_3":"조직도",
+      "sub_4":"오시는길"
+    },
+    "menu_2":
+    {
+      "products":"제품소개",
+      "sub_1":"모션플랫폼",
+      "sub_2":"스테빌라이저",
+      "sub_3":"USB Type 코딩기",
+      "sub_4":"AR/VR",
+      "sub_5":"SMART FARM",
+      "sub_6":"육군 교육자재"
+    },
+    "menu_3":
+    {
+      "promotion":"홍보센터"
+    }
+  },
+  "header":
+  {
+    "contact_us":"고객문의",
+    "kr_lang_abr":"KOR",
+    "en_lang_abr":"ENG",
+    "headerSlider":
+    {
+      "slide1":
+      {
+        "title":"the future of technology motiondynamics",
+        "caption":"산업확장성이 큰 모션 플랫폼을 기반으로 시장을 선도하는<br>전문기업으로 거듭나기 위해 최선의 노력을 다하겠습니다"
+      }
+    }
+  },
+  "main":
+  {
+    "product":
+    {
+      "motion_platform":"모션플랫폼",
+      "stablizer":"스테빌<br>라이저",
+      "title":"PRODUCT",
+      "caption":"엔터테인먼트 관련 방산 분야 , 스포츠분야<br>시뮬레이터 시장을 확보하여<br>안정적인 장비 운용실적을 쌓아가고 있습니다.",
+      "products":
+      {
+        "1":
+        {
+          "title":"2톤용 6축<br>모션 플랫폼 시스템",
+          "caption":"안테나의 송수신이 우수한<br>환경을 구축하기 위해 통신에 장애가 되는<br>외부적인 운동에 대해 자세유지가능"
+        },
+        "2":
+        {
+          "title":"기자재테스트<br>6축 모션플랫폼",
+          "caption":"안테나의 송수신이 우수한<br>환경을 구축하기 위해 통신에 장애가 되는<br>외부적인 운동에 대해 자세유지가능"
+        },
+        "3":
+        {
+          "title":"소형 스테빌라이저<br>시스템",
+          "caption":"안테나의 송수신이 우수한<br>환경을 구축하기 위해 통신에 장애가 되는<br>외부적인 운동에 대해 자세유지가능"
+        }
+      }
+    },
+    "company":
+    {
+      "title":"COMPANY",
+      "caption":"검증되고 실효성 높은 고도화 된 프로세스를 통해<br>새로운 성장 동력이 필요한 기업들에게 최고의 파트너가 되겠습니다.",
+      "section1":"ABOUT US",
+      "section1_caption":"회사소개",
+      "section2":"HISTORY",
+      "section2_caption":"회사연혁",
+      "section3":"PROMOTION",
+      "section3_caption":"온라인홍보관"
+    },
+    "contact":
+    {
+      "leftTextTitle":"모션다이나믹스 제품/시험평가에 대해 문의하시면",
+      "leftTextCaption":"최대한 신속하게 답변드리도록 하겠습니다",
+      "button":"고객문의"
+    }
+  },
+  "ceo":
+  {
+    "title":"인사말",
+    "title1":"Designing life Together",
+    "caption":"주식회사 모션다이나믹스는 고부가가치 산업으로 산업확장성이 큰 모션 플랫폼을 기반으로<br>안테나 자세유지 장치, 복합재 가공장비 등의 제품군을 개발하였습니다.<br><br>현재 엔터테인먼트 관련 방산 분야, 스포츠분야 시뮬레이터 시장을 확보하여<br>안정적인 장비 운용 실적을 쌓아가고 있으며 나아가 기술 수요가 증가하고 있는<br>VR·AR·MR기반 시뮬레이터 연구 개발에 매진하고 있습니다.<br><br>믿음과 신뢰를 바탕으로 보다 나은 삶과 미래를 만들어 최고의 기업으로<br>성장할 수 있는 (주)모션다이나믹스가 되도록 노력하겠습니다.",
+    "ceo":"대표이사",
+    "ceo_name":"최윤환"
+  },
+  "location":
+  {
+    "title":"오시는길",
+    "adr_title":"위치",
+    "adr":"전라북도 익산시 삼기면 오룡리 1250-3번지",
+    "hq_adr":"전라북도 전주시 덕진구 원상정길 111, B동",
+    "tab_1":"본사",
+    "tab_2":"신축공장"
+  },
+  "organization_chart":
+  {
+    "title":"조직도",
+    "ceo":"대표이사",
+    "box1":
+    {
+      "title":"경영지원",
+      "sub_1":"회사운용",
+      "sub_2":"자금관리",
+      "sub_3":"경리회계"
+    },
+    "box2":
+    {
+      "title":"기업부설연구소",
+      "sub_1":"R&D 연구개발"
+    },
+    "box3":
+    {
+      "title":"설계",
+      "sub_1":"3D 설계",
+      "sub_2":"2D 설계",
+      "sub_3":"규격화, 도면화"
+    },
+    "box4":
+    {
+      "title":"제어S/W",
+      "sub_1":"C++ S/W 설계",
+      "sub_2":"C# S/W 설계",
+      "sub_3":"Interactive 호완"
+    },
+    "box5":
+    {
+      "title":"전기설계",
+      "sub_1":"배치도 설계",
+      "sub_2":"회로도 설계",
+      "sub_3":"전기 하네스"
+    },
+    "box6":
+    {
+      "title":"기술영업",
+      "sub_1":"고객관리",
+      "sub_2":"사후관리",
+      "sub_3":"홍보관리"
+    }
+  },
+  "history":
+  {
+    "title":"회사연혁",
+    "caption":"현재 - 2018",
+    "caption2":"쌓아온 노하우로 동력을 확보하며 미래를 준비합니다",
+    "2020":
+    {
+      "sub_1":"익산 제3산업단지 부지1,100평계약체결(신축부지)",
+      "sub_2":"중소기업확인서 갱신",
+      "sub_3":"특허출원<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;벤처기업확인서(기술보증기금)갱신",
+      "sub_4":"특허등록(10-2122740)",
+      "sub_5":"익산 제3산업단지 신축공장 등기완료"
+    },
+    "2019":
+    {
+      "sub_1":"디자인등록(30-1009207)",
+      "sub_2":"특허출원",
+      "sub_3":"청년재직자 내일채움공제 가입",
+      "sub_4":"직접생산확인증명서 등록",
+      "sub_5":"특허등록(10-2051511)",
+      "sub_6":"특허등록(10-2054885)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;S/W저작권등록"
+    },
+    "2018":
+    {
+      "sub_1":"전주공장 임대계약 체결<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;법인 및 사업자 등록",
+      "sub_2":"기업부설연구소 설립 소프트웨어 사업자 등록<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;벤처기업 인증(기술보증기금)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;특허출원",
+      "sub_3":"ISO9001:2015 인증<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;프런티어 벤처기업 선정(전북1호)",
+      "sub_4":"S/W저작권등록",
+      "sub_5":"디자인출원",
+      "sub_6":"8,000주식증좌<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;특허출원2건"
+    }
+  },
+  "business":
+  {
+    "top_menu":
+    {
+      "sub_1":"모션플랫폼",
+      "sub_2":"스테빌라이저",
+      "sub_3":"USB Type 코딩기",
+      "sub_4":"AR & VR",
+      "sub_5":"해상 통신 시스템",
+      "sub_6":"육군 교육자재"
+    },
+    "caption1":"모션 플랫폼 시스템",
+    "system_arc":"구성",
+    "system_arc_items":
+    {
+      "sub_1":
+      {
+        "title":"상부프레임",
+        "caption":"상부 구조물과 결합용 /금속재질(SS400, AL)"
+      },
+      "sub_2":
+      {
+        "title":"하부프레임",
+        "caption":"설치되는 장소의 베이스에 고정되어 지지대 역할/ 금속재질(SS400, AL)"
+      },
+      "sub_3":
+      {
+        "title":"조인트 A’SSY",
+        "caption":"상/하부 프레임 연결 및 직선, 회전우동시 구동력을 전달 역할 / 금속재질( S45C)"
+      },
+      "sub_4":
+      {
+        "title":"전동엑추에이터",
+        "caption":"볼스크류가 삽입되어 있는 구조로 모션의 움직임의 주동력 / AL&S45C"
+      },
+      "sub_5":
+      {
+        "title":"서보모더",
+        "caption":"회전운동수의 데이터를 추출이 가능하여 정밀제어가 가능"
+      }
+    },
+    "range_of_motions":"운동범위",
+    "range_of_motions_table":
+    {
+      "column_1":"변위",
+      "column_2":"속도",
+      "column_3":"가속도",
+      "caption":"직선, 회전운동의 혼합으로 인해 모든 max 범위로 구동시 세부설계사항이 필요함"
+    },
+    "payload":"가반중량 (PayLoad)",
+    "payload_items":
+    {
+      "item_1":"제작범위 : 200kg ~ 10ton(전기식)",
+      "item_2":"가반중량(PayLoad)란 모션이 구동(들 수 있는) 중량으로 상부 프레임을 포함한 중량"
+    },
+    "interpretation":"해석",
+    "interpretation_table":
+    {
+      "column_1":"제품크기(세부사항은 TBD)",
+      "column_2":"제작비용(세부비용은 TBD)",
+      "column_3":"서보모터 사양(총 모터 전기요량)",
+      "caption":"TBD : To Be Determined / 미정, 추후결정",
+      "contact_us":"문의바람"
+    },
+    "blue_card":
+    {
+      "title":"제품에 대해 궁금하시다면 지금 문의하세요",
+      "button":"문의하기"
+    }
+  },
+  "stabilizer":
+  {
+    "title1":"스테빌라이저",
+    "features":
+    {
+      "title":"특징",
+      "items":
+      {
+        "item_1":"안테나의 송수신이 우수한 환경을 구축하기 위해 통신에 장애가 되는<br>외부적인 운동에 대해 자세유지가능",
+        "item_2":"소형 전동식 엑추에이터와 소형 서보 모터 및 드라이브를 활용하여<br>소형구조로 제작"
+      }
+    },
+    "range_of_motions":
+    {
+      "title":"운동범위",
+      "column_1":
+      {
+        "title":"Poll운동",
+        "item_1":"각도",
+        "item_2":"구동",
+        "item_3":"반응속도"
+      },
+      "column_2":
+      {
+        "title":"Pitch운동",
+        "item_1":"±30°",
+        "item_2":"왕복 5초 이내",
+        "item_3":"10ms"
+      }
+    }
+  },
+  "usb_type":
+  {
+    "title1":"USB Type 코딩기",
+    "item_1":
+    {
+      "title":"목적",
+      "caption":"모션 프랫폼을 기반으로 프로그래밍 작업 시 사용",
+      "item_1":"기존의 코딩방법에 비해 쉽게 접근이 가능하여 초보자도<br>모션플랫폼의 자세데이터 생성, 수정이 용이"
+    },
+    "item_2":
+    {
+      "title":"스펙",
+      "item_1_title":"통신방식",
+      "item_1_caption":"Plug-n-Play USB연결방식",
+      "item_2_title":"샘플링 타입",
+      "item_2_caption":"100ms",
+      "item_3_title":"축",
+      "item_3_caption":"축Plug-n-Play USB연결방식",
+      "item_4_title":"패키지",
+      "item_4_caption":"패키지6자유코딩기, 자세저장 S/W, 조작메뉴얼"
+    },
+    "item_3":
+    {
+      "title":"기능",
+      "caption":"애니메이션 및 동영상에 맞추어 코딩이 가능",
+      "item_1":"PC에 USB타입으로 S/W 와 연동하여 실시간으로<br>3축 또는 6축의 모션플랫폼 기반 자세데이터 모의 가능",
+      "item_2":"S/W는 실시간 코딩 데이터 저장가능",
+      "item_3":"코딩네이터는 엑셀데이터 시트의 연동을 통한 수정 가능"
+    }
+  },
+  "arvr":
+  {
+    "title":"AR/VR 플랫폼",
+    "section_1":
+    {
+      "title":"AR(AUGMENTED REALITY) ·VR(VIRTUAL REALITY)<br>PLATFORM",
+      "caption":"AR(Augmented Reality – 증강현실)과 VR(Virtual Reality-가상현실)은<br>기존의 환경에 사용자를 위한 실시간 디지털정보가 통합 된 기술이며<br>게임/영상/엔터테인먼트/부동산/쇼핑/교육 등의<br>넓은 시장확장성을 가지고 있는 산업기술입니다."
+    },
+    "section_2":
+    {
+      "title1":"AR/VR 기반의 플랫폼 개발",
+      "title2":"모션다이나믹스는 글로벌 컨텐츠 시장 진입을 위해 새로운 기술이 적용 된<br>AR/VR 기반 플랫폼을 제공합니다.",
+      "item_1":"모션다이나믹스는 글로벌 컨텐트 시장 진입을 위해 새로운 기술이 적용 된<br>AR/VR 기반 모션 플랫폼을 제공합니다.",
+      "item_2":"최근 6 DOF(6자유도 운동) 구현을 위해 GPS, 가속도, 자이로스코프, RFID,<br>무선 센서 등이 결합된 하이브리드 위치 추척 기술과 음성/동작 인식 기술이<br>적용된 UI 개발을 진행하고 있습니다."
+    }
+  },
+  "promotion":
+  {
+    "title":"promotion",
+    "title1":"홍보센터",
+    "title2":"COMPANY BROCHURE",
+    "title3":"모션다이나믹스 온라인 브로슈어",
+    "caption":"엔터테인먼트 관련 방산 분야 , 스포츠분야<br>시뮬레이터 시장을 확보하여<br>안정적인 장비 운용실적을 쌓아가고 있습니다.",
+    "download":"다운로드"
+  },
+  "smartFarm":
+  {
+    "title1":"실시간 모니터링이 가능한",
+    "title2":"스마트한 발효톱밥 생산 시스템 ",
+    "section_1":
+    {
+      "title":"특징",
+      "caption":"각 조절기능의 통합 조절 및 모니터링",
+      "item_1":"온도 및 습도의 현재 상태를 모니터링 하고 실시간으로 원격 제어가 가능함"
+    },
+    "section_2":
+    {
+      "caption":"제조일정에 소요되는 시간 단축",
+      "item_1":"기존에는 제작일정이 45일 이상 소요되었으나, 본 개발되는 스마트 시스템을<br>활용시 1차,2차에 소용되는 일정이 최대 7일까지 단축이 가능함"
+    },
+    "section_3":
+    {
+      "title":"운동범위",
+      "item_1":"배합, 발열, 습도, 발효가 가능한 일체형 발효톱밥 생산시스템",
+      "item_2":"발효톱밥 생산시스템을 하나의 모니터링 시스템을 통하여 통합 관리 진행가능",
+      "item_3":"핸드폰으로 연결하여 어디서든 데이터만 있다면 원격 관리가 가능"
+    }
+  },
+  "military":
+  {
+    "title":"육군 교육자재",
+    "section_1":
+    {
+      "title":"특징",
+      "item_1":"장갑차 교육시 필요한 교육 자재를 직접 설계 및 제작하여 납품",
+      "item_2":"다양한 교육에 필요한 제품에 대해서 제작이 가능"
+    }
+  },
+  "footer":
+  {
+    "company_link":"회사소개",
+    "location_link":"찾아오시는 길",
+    "adr":"주소",
+    "adr_value":"전라북도 전주시 덕진구 원상정길 111, B동",
+    "tel":"TEL",
+    "fax":"FAX",
+    "email":"E-mail",
+    "copyright":"© 웹개발 람델 스튜디오"
+  }
+}

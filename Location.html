@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- meta tags -->
+    <meta charset="utf-8"/>
+    <meta name="description" content="index page - your description here ..."/>
+    <meta name="keywords" content="your,keywords"/>
+    <meta name="copyright" content="all right reserved."/>
+    <meta name="robots" content="index,follow"/>
+    <!-- View port -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Title -->
+    <title>Index</title>
+    <!-- embed -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/swiper-bundle.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/customStyle.css" rel="stylesheet">
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/configuration.js"></script>
+  </head>
+  <style>
+    .btnTap
+    {
+      background: #f3f5f9;
+      color: #282b30 !important;
+      padding: 5px;
+      margin: 4px;
+      width: 120px;
+      display: inline-block;
+      cursor: pointer;
+      transition: all 0.4s;
+    }
+    .btnTap:hover
+    {
+      transition: all 0.2s;
+      background: #e3e5e9;
+    }
+    .btnTapSelected
+    {
+      background: #004098 !important;
+      color: #ffffff !important;
+    }
+    .hiddenTab
+    {
+      display: none;
+    }
+  </style>
+  <body>
+  <header id="header">
+    <!-- LoadMenu jQuery -->
+    <script>load_header_section('header')</script>
+  </header>
+
+    <section class="middle-subcontent">
+      <div class="container" style="min-width: 1000px;">
+        <div class="row map-section">
+          <div class="col-12 map-section--title">
+            <h1 class="multi-lang-class" lang-id="['location']['title']"></h1>
+          </div>
+          <div class="col-12 text-center" style="margin-top: 40px;">
+            <a id="tabS_1" onclick="clickTab(1);" class="btnTap btnTapSelected">
+              <span class="multi-lang-class" lang-id="['location']['tab_1']"></span>
+            </a>
+            <a id="tabS_2" onclick="clickTab(2);" class="btnTap">
+              <span class="multi-lang-class" lang-id="['location']['tab_2']"></span>
+            </a>
+          </div>
+          <div class="col-12">
+            <!-- HQ Tab -->
+            <div class="tabController" id="tab1">
+              <div class="col-12 map-section--map">
+                <div class="mapouter"><div class="gmap_canvas">
+                  <!--<iframe width="100%" height="450" id="gmap_canvas2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6468.167730832458!2d127.1692497276739!3d35.84694706726395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3570225484e63a03%3A0x83ebc082671e7064!2sWonsanjeong-gil%2C%20Sanjeong-dong%2C%20Deokjin-gu%2C%20Jeonju%2C%20Jeollabuk-do%2C%20South%20Korea!5e0!3m2!1sen!2sil!4v1604753686030!5m2!1sen!2sil" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>-->
+                  <img src="img/hqMap.png" width="100%">
+                </div>
+                  <style>.mapouter{position:relative;text-align:right;height:450px;width:100%;}.gmap_canvas {overflow:hidden;background:none!important;height:450px;width:100%;}</style>
+                </div>
+              </div>
+              <div class="col-12 map-section--bmbar">
+                <div>
+                  <h4 class="multi-lang-class" style="font-size: 16px;" lang-id="['location']['adr_title']">위치</h4>
+                  <h3 class="multi-lang-class" style="font-size: 15px;" lang-id="['location']['hq_adr']"></h3>
+                  <h3>
+                    <span class="multi-lang-class" style="text-transform: capitalize;font-size: 16px;" lang-id="['footer']['tel']"></span> <label style="font-size: 15px;">070-4870-3955</label>
+                    <span class="multi-lang-class" style="text-transform: capitalize;font-size: 16px;" lang-id="['footer']['fax']"></span> <label style="font-size: 15px;">070-8270-3955</label>
+                  </h3>
+                </div>
+              </div>
+
+              <div class="col-12" id="factoryImg" style="margin-top: 80px;">
+                <img src="img/factoryImgEN.png" width="100%">
+              </div>
+            </div>
+            <!-- Factory Tab -->
+            <div class="tabController hiddenTab" id="tab2">
+              <div class="col-12 map-section--map">
+                <div class="mapouter">
+                  <div class="gmap_canvas">
+                    <!--<iframe width="100%" height="450" id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8200.06152317489!2d126.99039446138049!3d36.04170130598479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3570130acb5e6759%3A0x3664bd4e9ab235f3!2s3%20Oryong-ri%2C%20Samgi-myeon%2C%20Iksan%2C%20Jeollabuk-do%2C%20South%20Korea!5e0!3m2!1sen!2sil!4v1604748859961!5m2!1sen!2sil" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">-->
+                    <!--</iframe>-->
+                    <img src="img/factoryMap.png" width="100%">
+                  </div>
+                  <style>.mapouter{position:relative;text-align:right;height:450px;width:100%;}.gmap_canvas {overflow:hidden;background:none!important;height:450px;width:100%;}</style>
+                </div>
+              </div>
+              <div class="col-12 map-section--bmbar">
+                <div>
+                  <h4 class="multi-lang-class" style="font-size: 16px;" lang-id="['location']['adr_title']">위치</h4>
+                  <h3 class="multi-lang-class" style="font-size: 15px;" lang-id="['location']['adr']"></h3>
+                  <h3>
+                    <span class="multi-lang-class" style="text-transform: capitalize;font-size: 16px;" lang-id="['footer']['tel']"></span> <label style="font-size: 15px;">070-4870-3955</label>
+                    <span class="multi-lang-class" style="text-transform: capitalize;font-size: 16px;" lang-id="['footer']['fax']"></span> <label style="font-size: 15px;">070-8270-3955</label>
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <footer id="footer">
+    <!-- LoadFooter jQuery -->
+  </footer>
+
+    <!-- embed script -->
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/script.js"></script>
+
+  <script>
+      $(document).ready(function () {
+
+          getLanguage(_currentLang, function () {
+              // refresh lang file
+              var bodyElement = $('body');
+
+              convertAllFooterLink();
+
+              if(_currentLang == 'kr'){
+                  $('#factoryImg > img').attr('src','img/factoryImgKR.png');
+              }else{
+                  $('#factoryImg > img').attr('src','img/factoryImgEN.png');
+              }
+
+              bodyElement.find('.multi-lang-class').each(function (index, currentElement) {
+                  const id = $(this).attr('lang-id');
+                  if(id != null){
+                      const str = eval("_languageObject"+ id);
+                      $(this).html(str);
+                  }
+              });
+          }); // lang
+      });
+
+      function clickTab(tab_id) {
+          if(tab_id == 1){
+              $('#tabS_1').attr('class','btnTap btnTapSelected');
+              $('#tabS_2').attr('class','btnTap');
+              $('#tab1').attr('class','tabController');
+              $('#tab2').attr('class','tabController hiddenTab');
+          }else{
+              $('#tabS_2').attr('class','btnTap btnTapSelected');
+              $('#tabS_1').attr('class','btnTap');
+              $('#tab2').attr('class','tabController');
+              $('#tab1').attr('class','tabController hiddenTab');
+          }
+      }
+  </script>
+  </body>
+</html>

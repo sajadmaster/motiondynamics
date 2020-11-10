@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- meta tags -->
+    <meta charset="utf-8"/>
+    <meta name="description" content="index page - your description here ..."/>
+    <meta name="keywords" content="your,keywords"/>
+    <meta name="copyright" content="all right reserved."/>
+    <meta name="robots" content="index,follow"/>
+    <!-- View port -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Title -->
+    <title>Index</title>
+    <!-- embed -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/swiper-bundle.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/customStyle.css" rel="stylesheet">
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/configuration.js"></script>
+  </head>
+  <body>
+  <header id="header">
+    <!-- LoadMenu jQuery -->
+    <script>load_header_section('header')</script>
+  </header>
+
+    <section class="middle-subcontent">
+      <div class="container" style="min-width: 1000px;">
+        <div class="row sub2chart-section">
+          <div class="col-12 sub2chart-section--title">
+            <h1 class="multi-lang-class" lang-id="['organization_chart']['title']"></h1>
+          </div>
+          <div class="col-12 sub2chart-section--mainimg">
+            <div class="mainimg">
+              <h2 class="multi-lang-class" lang-id="['organization_chart']['ceo']"></h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sub2chart-section--boxes">
+        <div class="sub2chart-section--box">
+          <div class="sub2chart-section--box-title-strip">
+            <h3 class="multi-lang-class" lang-id="['organization_chart']['box1']['title']"></h3>
+          </div>
+          <ul>
+            <li class="multi-lang-class" lang-id="['organization_chart']['box1']['sub_1']"></li>
+            <li class="multi-lang-class" lang-id="['organization_chart']['box1']['sub_2']"></li>
+            <li class="multi-lang-class" lang-id="['organization_chart']['box1']['sub_3']"></li>
+          </ul>
+        </div>
+        <div class="sub2chart-section--box">
+          <div class="sub2chart-section--box-title-strip">
+            <h3 class="multi-lang-class" lang-id="['organization_chart']['box2']['title']"></h3>
+          </div>
+          <ul>
+            <li class="multi-lang-class" lang-id="['organization_chart']['box2']['sub_1']"></li>
+          </ul>
+        </div>
+        <div class="sub2chart-section--box">
+          <div class="sub2chart-section--box-title-strip">
+            <h3 class="multi-lang-class" lang-id="['organization_chart']['box3']['title']"></h3>
+          </div>
+          <ul>
+            <li class="multi-lang-class" lang-id="['organization_chart']['box3']['sub_1']"></li>
+            <li class="multi-lang-class" lang-id="['organization_chart']['box3']['sub_2']"></li>
+            <li class="multi-lang-class" lang-id="['organization_chart']['box3']['sub_3']"></li>
+          </ul>
+        </div>
+        <div class="sub2chart-section--box">
+          <div class="sub2chart-section--box-title-strip">
+            <h3 class="multi-lang-class" lang-id="['organization_chart']['box4']['title']"></h3>
+          </div>
+          <ul>
+            <li class="multi-lang-class" lang-id="['organization_chart']['box4']['sub_1']"></li>
+            <li class="multi-lang-class" lang-id="['organization_chart']['box4']['sub_2']"></li>
+            <li class="multi-lang-class" lang-id="['organization_chart']['box4']['sub_3']"></li>
+          </ul>
+        </div>
+        <div class="sub2chart-section--box">
+          <div class="sub2chart-section--box-title-strip">
+            <h3 class="multi-lang-class" lang-id="['organization_chart']['box5']['title']"></h3>
+          </div>
+          <ul>
+            <li class="multi-lang-class" lang-id="['organization_chart']['box5']['sub_1']"></li>
+            <li class="multi-lang-class" lang-id="['organization_chart']['box5']['sub_2']"></li>
+            <li class="multi-lang-class" lang-id="['organization_chart']['box5']['sub_3']"></li>
+          </ul>
+        </div>
+        <div class="sub2chart-section--box">
+          <div class="sub2chart-section--box-title-strip">
+            <h3 class="multi-lang-class" lang-id="['organization_chart']['box6']['title']"></h3>
+          </div>
+          <ul>
+            <li class="multi-lang-class" lang-id="['organization_chart']['box6']['sub_1']"></li>
+            <li class="multi-lang-class" lang-id="['organization_chart']['box6']['sub_2']"></li>
+            <li class="multi-lang-class" lang-id="['organization_chart']['box6']['sub_3']"></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <!-- LoadFooter jQuery -->
+    </footer>
+
+    <!-- embed script -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <script>
+        $(document).ready(function () {
+
+            getLanguage(_currentLang, function () {
+                // refresh lang file
+                var bodyElement = $('body');
+
+                convertAllFooterLink();
+
+                bodyElement.find('.multi-lang-class').each(function (index, currentElement) {
+                    const id = $(this).attr('lang-id');
+                    if(id != null){
+                        const str = eval("_languageObject"+ id);
+                        $(this).html(str);
+                    }
+                });
+            }); // lang
+
+        });
+    </script>
+
+  </body>
+</html>

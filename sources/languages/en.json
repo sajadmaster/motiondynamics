@@ -1,0 +1,380 @@
+{
+  "menu":
+  {
+    "menu_1":
+    {
+      "company":"Company",
+      "sub_1":"CEO's Message",
+      "sub_2":"History",
+      "sub_3":"Organization Chart",
+      "sub_4":"Location"
+    },
+    "menu_2":
+    {
+      "products":"Products",
+      "sub_1":"Motion Platform",
+      "sub_2":"Stablizer",
+      "sub_3":"USB Type Coding",
+      "sub_4":"AR/VR",
+      "sub_5":"SmartFarm",
+      "sub_6":"Military TrainingEdu."
+    },
+    "menu_3":
+    {
+      "promotion":"Promotion"
+    }
+  },
+  "header":
+  {
+    "contact_us":"Contact Us",
+    "kr_lang_abr":"KOR",
+    "en_lang_abr":"ENG",
+    "headerSlider":
+    {
+      "slide1":
+      {
+        "title":"the future of technology motiondynamics",
+        "caption":"MotionDynamics is the market leader in motion platform industries."
+      }
+    }
+  },
+  "main":
+  {
+    "product":
+    {
+      "motion_platform":"Motion<br>Platform",
+      "stablizer":"Stablizer",
+      "title":"PRODUCT",
+      "caption":"Motion technology for entertainment, defense,<br>sports, games and simulator markets.",
+      "products":
+      {
+        "1":
+        {
+          "title":"Motion Plaftform: 2 Tons<br>with 6 Axis",
+          "caption":"Excellent choice for transciving antennas, ability to<br>stablize antennas with adaptive motion technology."
+        },
+        "2":
+        {
+          "title":"Equipment test<br>6-axis motion platform",
+          "caption":"Excellent choice for testing new equipments. Ability to<br>maintain posture against external"
+        },
+        "3":
+        {
+          "title":"Small stabilizer<br>system",
+          "caption":"Excellent choice for education<br>and training."
+        }
+      }
+    },
+    "company":
+    {
+      "title":"COMPANY",
+      "caption":"Proven, highly effective and advanced processes<br>We'll be the best partner for companies that need new growth engines.",
+      "section1":"ABOUT US",
+      "section1_caption":"",
+      "section2":"HISTORY",
+      "section2_caption":"",
+      "section3":"PROMOTION",
+      "section3_caption":""
+    },
+    "contact":
+    {
+      "leftTextTitle":"contact us about motion dynamics product/test evaluation",
+      "leftTextCaption":"we will respond as soon as possible.",
+      "button":"Contact us"
+    }
+  },
+  "ceo":
+  {
+    "title":"CEO Message",
+    "title1":"Designing life Together",
+    "caption":"Motion Dynamics Co., Ltd. is a high value-added industry based on a motion platform (stewart platform) with high industry scalability.<br>We have developed a range of products such as antenna stablizer devices and composite processing equipment.<br><br>We have secured markets for simulators in the field of entertainment, defense and sports. We are manufactoring stablizer equipment with advanced technology.<br>We are also focusing on research and development of VR, AR, and MR-based simulators.",
+    "ceo":"CEO",
+    "ceo_name":"Yoonhwan Choi"
+  },
+  "location":
+  {
+    "title":"Location",
+    "adr_title":"Address",
+    "adr":"[570823] 1250-3, Oryong-ri, Samgi-myeon, Iksan-si, Jeollabuk-do, Republic of Korea",
+    "hq_adr":"111, Wonsanjeong-gil, Deokjin-gu, Jeonju-si, Jeollabuk-do, Republic of Korea",
+    "tab_1":"HQ",
+    "tab_2":"Factory(new)"
+  },
+  "organization_chart":
+  {
+    "title":"Organization chart",
+    "ceo":"CEO",
+    "box1":
+    {
+      "title":"Management",
+      "sub_1":"Company Mngmt",
+      "sub_2":"Fund Mngmt",
+      "sub_3":"Accounting"
+    },
+    "box2":
+    {
+      "title":"R&D",
+      "sub_1":"Research and Development"
+    },
+    "box3":
+    {
+      "title":"Design",
+      "sub_1":"3D Design",
+      "sub_2":"2D Design",
+      "sub_3":"standardization, drawing"
+    },
+    "box4":
+    {
+      "title":"S/W Control",
+      "sub_1":"C++ S/W Design",
+      "sub_2":"C# S/W Design",
+      "sub_3":"Interactive"
+    },
+    "box5":
+    {
+      "title":"Electrical design",
+      "sub_1":"Layout Design",
+      "sub_2":"Circuit Diagram",
+      "sub_3":"Electrical Harness"
+    },
+    "box6":
+    {
+      "title":"Sales",
+      "sub_1":"CRM",
+      "sub_2":"Follow-up Mngmt",
+      "sub_3":"Promotion"
+    }
+  },
+  "history":
+  {
+    "title":"HISTORY",
+    "caption":"Present - 2018",
+    "caption2":"You get power from your accumulated know-how.",
+    "2020":
+    {
+      "sub_1":"Iksan 3rd Industrial Complex Site, 1,100 pyeong contract (new site)",
+      "sub_2":"Renewal of Small and Medium Business Confirmation",
+      "sub_3":"Patent application<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Renewal of Venture Business Confirmation",
+      "sub_4":"Patent registration (10-2122740) (South Korea)",
+      "sub_5":"Registration for the new plant in Iksan 3rd Industrial Complex"
+    },
+    "2019":
+    {
+      "sub_1":"Design registration (30-1009207 ) (South Korea)",
+      "sub_2":"Patent application",
+      "sub_3":"Youth employee subscribtion to Tomorrow's Fill (내일채움공제)",
+      "sub_4":"Direct production confirmation certificate",
+      "sub_5":"Patent registration (10-2051511) (South Korea)",
+      "sub_6":"Patent registration (10-2054885)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Software copyright registration"
+    },
+    "2018":
+    {
+      "sub_1":"Signing a lease contract for Jeonju Plant<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Corporate and business registration",
+      "sub_2":"Establishment of Corporate Affiliated Research Institute Software<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Business Registration Certification of Venture Businesses<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Patent registration (South Korea)",
+      "sub_3":"ISO9001:2015 Certification<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Frontier Venture Selection (Jeonbuk 1)",
+      "sub_4":"Software copyright registration",
+      "sub_5":"Design registration",
+      "sub_6":"8,000 stock certificate<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Two Patent applications"
+    }
+  },
+  "business":
+  {
+    "top_menu":
+    {
+      "sub_1":"Motion Platform",
+      "sub_2":"Stabilizer",
+      "sub_3":"USB Type  Coding",
+      "sub_4":"AR & VR",
+      "sub_5":"Smart Fermentation System",
+      "sub_6":"Military Training Edu."
+    },
+    "caption1":"Motion Platform System",
+    "system_arc":"System Architecture",
+    "system_arc_items":
+    {
+      "sub_1":
+      {
+        "title":"Upper Frame",
+        "caption":"High quality metalic material (SS400, AL)"
+      },
+      "sub_2":
+      {
+        "title":"Lower Frame",
+        "caption":"Fixed to the base, high quality metalic material (SS400, AL)"
+      },
+      "sub_3":
+      {
+        "title":"Joint A’SSY",
+        "caption":"Connects the Upper Frame with the Lower Frame<br>High quality metalic material (S45C)"
+      },
+      "sub_4":
+      {
+        "title":"Electronic Actuator",
+        "caption":"High performance actuator with great accuracy<br>High quality metalic material (AL&S45C)"
+      },
+      "sub_5":
+      {
+        "title":"Servo Motor",
+        "caption":"Highly precise servo motors with fast reaction"
+      }
+    },
+    "range_of_motions":"Range of motions",
+    "range_of_motions_table":
+    {
+      "column_1":"Displacement",
+      "column_2":"Velocity",
+      "column_3":"Acceleration",
+      "caption":"Due to the mix of straight line and rotary motion, detailed design is required when driving install max ranges"
+    },
+    "payload":"Payload",
+    "payload_items":
+    {
+      "item_1":"Our production range: From 200 kg up to 10 tons (electric-type)",
+      "item_2":"Payload means the weight of motion that can be driven (carried) and<br>includes the upper frame."
+    },
+    "interpretation":"Interpretation",
+    "interpretation_table":
+    {
+      "column_1":"Size (TBD)",
+      "column_2":"Cost (TBD)",
+      "column_3":"Servo Motor Spec (electronic type)",
+      "caption":"TBD : To Be Determined",
+      "contact_us":"Contact us"
+    },
+    "blue_card":
+    {
+      "title":"Feel free to contact us at any time, we’ll reply to your queries ASAP.",
+      "button":"Contact us"
+    }
+  },
+  "stabilizer":
+  {
+    "title1":"Motion Stabilizer",
+    "features":
+    {
+      "title":"Features",
+      "items":
+      {
+        "item_1":"Ability to maintain posture, even under extreme external forces<br>such as external loads or wind",
+        "item_2":"Compact design with small actuators and servo motors"
+      }
+    },
+    "range_of_motions":
+    {
+      "title":"Range of motions",
+      "column_1":
+      {
+        "title":"Poll Motion",
+        "item_1":"Angular",
+        "item_2":"Drive",
+        "item_3":"Reaction Velocity"
+      },
+      "column_2":
+      {
+        "title":"Pitch Motion",
+        "item_1":"±30°",
+        "item_2":"Round-way under 5 sec",
+        "item_3":"10ms"
+      }
+    }
+  },
+  "usb_type":
+  {
+    "title1":"USB Type - Coding Machine",
+    "item_1":
+    {
+      "title":"Purpose",
+      "caption":"Used for programming operations based on motion platforms",
+      "item_1":"It is easier for beginnersldo to generate and modify posture data on<br>motion platforms than conventional coding methods."
+    },
+    "item_2":
+    {
+      "title":"Specs",
+      "item_1_title":"Communication Method",
+      "item_1_caption":"Plug-n-Play USB Connection",
+      "item_2_title":"Sampling time",
+      "item_2_caption":"100ms",
+      "item_3_title":"Axis",
+      "item_3_caption":"6 DoF Coding Machine",
+      "item_4_title":"Package",
+      "item_4_caption":"6-DoF Coding Machine, Operating Software, User Manual"
+    },
+    "item_3":
+    {
+      "title":"Functionalities",
+      "caption":"Coding for animations and videos",
+      "item_1":"Easily connect your PC to the device via a USB cable<br>Simulate 3 or 6 axis motion platform attitude data in real-time",
+      "item_2":"Provided software can store the gathered data in real-time",
+      "item_3":"Coding data could be conveacrted to excel sheets for further mathematical operations"
+    }
+  },
+  "arvr":
+  {
+    "title":"AR & VR Platform",
+    "section_1":
+    {
+      "title":"AR(AUGMENTED REALITY) ·VR(VIRTUAL REALITY)<br>PLATFORM",
+      "caption":"AR & VR are technologies that integrates digital information in the real-life<br>using virtual headsets.<br> Some applications of our AR & VR Platform: <br>Education, VR Games, video, entertainment, real estate, and shopping."
+    },
+    "section_2":
+    {
+      "title1":"AR/VR - based platform development",
+      "title2":"We at MotionDynamics have experience combining AR & VR<br>technologies with our Motion Platforms",
+      "item_1":"MotionDynamics can provide you customized AR & VR solutions suitable for your business.",
+      "item_2":"GPS, acceleration, gyroscope, RFID, for the latest 6 DOF implementation.<br>Hybrid positioning technology combined with wireless sensors and voice/motion<br> recognition technology."
+    }
+  },
+  "promotion":
+  {
+    "title":"promotion",
+    "title1":"Promotion Center",
+    "title2":"COMPANY BROCHURE",
+    "title3":"MotionDynamics Product Brochure",
+    "caption":" From Entertainment-related motion platforms to defense and sports applicationis . We build high-quality, stable motion platform equipments.",
+    "download":"Download"
+  },
+  "smartFarm":
+  {
+    "title1":"Real-time monitoring",
+    "title2":"Smart Fermented Rice Machine",
+    "section_1":
+    {
+      "title":"Features",
+      "caption":"Integrated control and monitoring of each part",
+      "item_1":"Real-time monitoring of current state of temperature and humidity"
+    },
+    "section_2":
+    {
+      "caption":"Reduce manufacturing schedule time",
+      "item_1":"Previously, the production schedule took more than 45 days, By using this<br>smart system, the production time was reduced to only 7 days"
+    },
+    "section_3":
+    {
+      "title":"Range of motion",
+      "item_1":"Integrated Fermented Top Rice Production System for Mixing, Heating,<br>Humidity and Fermentation",
+      "item_2":"The production cycle of fermented sawdust can be integrated and managed<br>through one integrated monitoring system.",
+      "item_3":"Connect to your phone and remotely manage your data anywhere."
+    }
+  },
+  "military":
+  {
+    "title":"Military Training Education",
+    "section_1":
+    {
+      "title":"Features",
+      "item_1":"Design, manufacture and deliver training materials required for armored vehicle training.",
+      "item_2":"Produce products for a variety of training needs"
+    }
+  },
+  "footer":
+  {
+    "company_link":"Company",
+    "location_link":"Location",
+    "adr":"Address",
+    "adr_value":"111, Wonsanjeong-gil, Deokjin-gu, Jeonju-si, Jeollabuk-do, Republic of Korea",
+    "tel":"tel",
+    "fax":"fax",
+    "email":"E-mail",
+    "copyright":"© Web Development by Ramdel Studio"
+  }
+}

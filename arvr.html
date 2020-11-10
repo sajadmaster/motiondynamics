@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- meta tags -->
+    <meta charset="utf-8"/>
+    <meta name="description" content="index page - your description here ..."/>
+    <meta name="keywords" content="your,keywords"/>
+    <meta name="copyright" content="all right reserved."/>
+    <meta name="robots" content="index,follow"/>
+    <!-- View port -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Title -->
+    <title>Index</title>
+    <!-- embed -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/swiper-bundle.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/customStyle.css" rel="stylesheet">
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/configuration.js"></script>
+  </head>
+  <body>
+    <header id="header">
+
+      <section class="company-topheader-section">
+        <div class="company-topheader-section--blur-strip-business">
+          <div class="company-topheader-section--blur-business"></div>
+          <div class="company-topheader-section--grayscale-business"></div>
+        </div>
+        <div class="container">
+          <div class="row company-text-row align-items-center">
+            <div class="company-text col-12">
+              <h1>BUSINESS</h1>
+            </div>
+          </div>
+          <div class="row headerbottom-menu-row">
+            <div class="col-12">
+              <ul id="top_menu_id">
+                <li><a href="business.html?lang=" class="multi-lang-class" lang-id="['business']['top_menu']['sub_1']"></a></li>
+                <li><a href="stablizer.html?lang=" class="multi-lang-class" lang-id="['business']['top_menu']['sub_2']"></a></li>
+                <li><a href="usbtype.html?lang=" class="multi-lang-class" lang-id="['business']['top_menu']['sub_3']"></a></li>
+                <li><a href="#" class="multi-lang-class active-hb-a" lang-id="['business']['top_menu']['sub_4']"></a></li>
+                <li><a href="smartfarm.html?lang=" class="multi-lang-class" lang-id="['business']['top_menu']['sub_5']"></a></li>
+                  <li><a href="MilitaryTrainingEducation.html?lang=" class="multi-lang-class" lang-id="['business']['top_menu']['sub_6']"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <section class="middle-subcontent">
+      <div class="container" style="min-width: 1000px;">
+        <div class="row arvr-section">
+          <div class="col-12 arvr-section-title-text">
+            <h4>AR·VR PLATFORM</h4>
+            <h1 class="multi-lang-class" lang-id="['arvr']['title']"></h1>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 arvr-section-middlecontent">
+          <div class="container" style="min-width: 1000px;">
+              <div class="row arvr-section">
+                <div class="col-7 arvr-section-middlecontent-left">
+                    <div>
+                        <h1 class="multi-lang-class" lang-id="['arvr']['section_1']['title']"></h1>
+                        <p class="multi-lang-class" lang-id="['arvr']['section_1']['caption']"></p>
+                    </div>
+                </div>
+                <div class="col-5 arvr-section-middlecontent-right">
+                    <img src="img/img35.jpg" alt="img">
+                </div>
+              </div>
+          </div>
+      </div>
+      <div class="container" style="min-width: 1000px;">
+            <div class="row arvr-section">
+                <div class="col-6 arvr-section-bottomsection-left">
+                    <img src="img/img93.jpg" alt="img">
+                </div>
+                <div class="col-6 arvr-section-bottomsection-right">
+                    <div class="col-12 arvr-section-content-title">
+                        <h1 class="multi-lang-class" lang-id="['arvr']['section_2']['title1']"></h1>
+                    </div>
+                    <h3 class="multi-lang-class" lang-id="['arvr']['section_2']['title2']"></h3>
+                    <div class="col-12 arvr-section-features">
+                        <ul>
+                            <li class="multi-lang-class" lang-id="['arvr']['section_2']['item_1']"></li>
+                            <li class="multi-lang-class" lang-id="['arvr']['section_2']['item_2']"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+      <!-- LoadFooter jQuery -->
+    </footer>
+
+    <!-- embed script -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <script>
+        $(document).ready(function () {
+
+            getLanguage(_currentLang, function () {
+                // refresh lang file
+                var bodyElement = $('body');
+
+                $('#top_menu_id').find('a').each(function (index, currentElement) {
+                    const href = $(this).attr('href');
+                    $(this).attr('href', href + _currentLang);
+                });
+
+                bodyElement.find('.multi-lang-class').each(function (index, currentElement) {
+                    const id = $(this).attr('lang-id');
+                    if(id != null){
+                        const str = eval("_languageObject"+ id);
+                        $(this).html(str);
+                    }
+                });
+            });// lang
+
+        });
+    </script>
+  </body>
+</html>
