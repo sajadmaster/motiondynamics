@@ -8,16 +8,16 @@
             </div>
             <div class="ul-section d-none d-md-block col-md-7">
                 <ul id="mainMenu">
-                    <li><a data-islink="false" style="cursor:pointer;margin-right: 30px;" class="multi-lang-class" lang-id="['menu']['menu_1']['company']"></a>
+                    <li><a id="companyNavId" data-islink="false" style="cursor:pointer;margin-right: 30px;" class="multi-lang-class " lang-id="['menu']['menu_1']['company']"></a>
                         <div class="menu-dropdown">
                             <div class="dropdown-ul-strip">
-                                <ul>
+                                <ul id="companyUL">
                                     <li><a href="CEO.html?lang=" class="multi-lang-class" lang-id="['menu']['menu_1']['sub_1']"></a></li>
                                     <li><a href="History.html?lang=" class="multi-lang-class" lang-id="['menu']['menu_1']['sub_2']"></a></li>
                                     <li><a href="OrganizationChart.html?lang=" class="multi-lang-class" lang-id="['menu']['menu_1']['sub_3']"></a></li>
                                     <li><a href="Location.html?lang=" class="multi-lang-class" lang-id="['menu']['menu_1']['sub_4']"></a></li>
                                 </ul>
-                                <ul style="margin-right: 265px; margin-left: 15px;">
+                                <ul id="productsUL" style="margin-right: 265px; margin-left: 15px;">
                                     <li><a href="business.html?lang=" class="multi-lang-class" lang-id="['menu']['menu_2']['sub_1']"></a></li>
                                     <li><a href="stablizer.html?lang=" class="multi-lang-class" lang-id="['menu']['menu_2']['sub_2']"></a></li>
                                     <li><a href="usbtype.html?lang=" class="multi-lang-class" lang-id="['menu']['menu_2']['sub_3']"></a></li>
@@ -28,88 +28,121 @@
                             </div>
                         </div>
                     </li>
-                    <li><a style="margin-right: 30px;" href="business.html?lang=" class="multi-lang-class" lang-id="['menu']['menu_2']['products']"></a></li>
+                    <li><a id="productsNavId" style="margin-right: 30px;" href="business.html?lang=" class="multi-lang-class" lang-id="['menu']['menu_2']['products']"></a></li>
                     <li><a style="margin-right: 30px;" href="promotion.html?lang=" class="multi-lang-class" lang-id="['menu']['menu_3']['promotion']"></a></li>
                 </ul>
             </div>
             <div class="button-section d-none d-md-block col-md-3">
                 <ul>
-                    <li id="language_selector_kor" ><a href="index.html?lang=kr" class="multi-lang-class" lang-id="['header']['kr_lang_abr']"></a></li>
-                    <li id="language_selector_eng" class="active-lang"><a href="index.html?lang=en" class="multi-lang-class" lang-id="['header']['en_lang_abr']"></a></li>
+                    <li class="language_selector_kor" ><a href="index.html?lang=kr" class="multi-lang-class" lang-id="['header']['kr_lang_abr']"></a></li>
+                    <li class="language_selector_eng active-lang"><a href="index.html?lang=en" class="multi-lang-class" lang-id="['header']['en_lang_abr']"></a></li>
                     <!-- contact us button -->
-                    <li><a href="Location.html?lang" class="multi-lang-class" lang-id="['header']['contact_us']"></a></li>
+                    <li>
+                        <a href="Location.html?lang=" class="multi-lang-class contactUs" lang-id="['header']['contact_us']"></a>
+                    </li>
                 </ul>
             </div>
-            <div class="responsive-menu-icon col-3 col-sm-3 d-md-none d-sm-block">
-                <div class="menu-icon"></div>
+            <div onclick="toggleMenu();" class="responsive-menu-icon col-3 col-sm-3 d-md-none d-sm-block">
+                <div id="imgBurgerMenuId" class="menu-icon"></div>
             </div>
         </div>
     </div>
 </section>
 <!-- responsive menu -->
-<section class="responsive-menu-section">
-    <ul>
-        <li><a style="cursor: pointer;">Company</a>
-            <div class="menu-dropdown">
-                <div class="dropdown-ul-strip">
-                    <ul>
-                        <li><a href="/">CEO's Message</a></li>
-                        <li><a href="/">History</a></li>
-                        <li><a href="/">Organization Chat</a></li>
-                        <li><a href="/">Location</a></li>
-                    </ul>
-                    <ul>
-                        <li><a href="/">Motion Platform</a></li>
-                        <li><a href="/">Stablizer</a></li>
-                        <li><a href="/">HILS Simulator</a></li>
-                        <li><a href="/">AR/VR Platform</a></li>
-                        <li><a href="/">Smart Factory</a></li>
-                    </ul>
-                    <ul>
-                        <li><a href="/">Lorem Ipsum</a></li>
-                        <li><a href="/">Web Develop</a></li>
-                    </ul>
-                    <ul>
-                        <li><a href="/">Test Text</a></li>
-                        <li><a href="/">Html, Css</a></li>
-                        <li><a href="/">Laravel</a></li>
-                        <li><a href="/">NodeJS Express.JS</a></li>
-                    </ul>
-                </div>
-            </div>
+<section class="responsive-menu-section d-md-none" id="res_menu_section_id">
+    <ul id="resMenu">
+        <li>
+            <a data-islink="false" style="cursor:pointer;">
+                <span class="multi-lang-class dropdown-bottom-icon" lang-id="['menu']['menu_1']['company']"></span>
+                <i></i>
+                <div class="clearfix"></div>
+            </a>
+            <ul>
+                <li><a href="CEO.html?lang=" class="multi-lang-class" lang-id="['menu']['menu_1']['sub_1']"></a></li>
+                <li><a href="History.html?lang=" class="multi-lang-class" lang-id="['menu']['menu_1']['sub_2']"></a></li>
+                <li><a href="OrganizationChart.html?lang=" class="multi-lang-class" lang-id="['menu']['menu_1']['sub_3']"></a></li>
+                <li><a href="Location.html?lang=" class="multi-lang-class" lang-id="['menu']['menu_1']['sub_4']"></a></li>
+            </ul>
         </li>
-        <li><a href="/">Products</a></li>
-        <li><a href="/">Test & Evaluation</a></li>
-        <li><a href="/">Promotion</a></li>
+        <li>
+            <a data-islink="false" style="cursor:pointer;">
+                <span class="multi-lang-class dropdown-bottom-icon" lang-id="['menu']['menu_2']['products']"></span>
+                <i></i>
+                <div class="clearfix"></div>
+            </a>
+            <ul>
+                <li><a href="business.html?lang=" class="multi-lang-class" lang-id="['menu']['menu_2']['sub_1']"></a></li>
+                <li><a href="stablizer.html?lang=" class="multi-lang-class" lang-id="['menu']['menu_2']['sub_2']"></a></li>
+                <li><a href="usbtype.html?lang=" class="multi-lang-class" lang-id="['menu']['menu_2']['sub_3']"></a></li>
+                <li><a href="arvr.html?lang=" class="multi-lang-class" lang-id="['menu']['menu_2']['sub_4']"></a></li>
+                <li><a href="smartfarm.html?lang=" class="multi-lang-class" lang-id="['menu']['menu_2']['sub_5']"></a></li>
+                <li><a href="MilitaryTrainingEducation.html?lang=" class="multi-lang-class" lang-id="['menu']['menu_2']['sub_6']"></a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="promotion.html?lang=">
+                <span class="multi-lang-class" lang-id="['menu']['menu_3']['promotion']"></span>
+                <div class="clearfix"></div>
+            </a>
+        </li>
+        <li>
+            <a class="contactUs" href="Location.html?lang=">
+                <span class="multi-lang-class" lang-id="['header']['contact_us']"></span>
+                <div class="clearfix"></div>
+            </a>
+        </li>
+        <li>
+            <a href="#" data-islink="false">
+                <span class="multi-lang-class" lang-id="['header']['contact_us']"></span>
+                <div class="clearfix"></div>
+            </a>
+        </li>
     </ul>
     <br>
-    <ol class="buttom-menu-res">
-        <li><a href="/">KOR</a></li>
-        <li class="active-lang"><a href="/">ENG</a></li>
-        <!-- contact us button -->
-        <li><a href="/">contact us</a></li>
+    <ol class="buttom-menu-res" style="padding:0;padding-left: 10px;padding-bottom:20px;margin: 0;">
+        <li class="language_selector_kor active-lang"><a href="index.html?lang=kr" class="multi-lang-class" lang-id="['header']['kr_lang_abr']"></a></li>
+        <li class="language_selector_eng active-lang"><a href="index.html?lang=en" class="multi-lang-class" lang-id="['header']['en_lang_abr']"></a></li>
     </ol>
 </section>
 
-
 <script>
+    var _menuIsOn = "";
+    function toggleMenu() {
+
+        var cls = $('#imgBurgerMenuId');
+        if(cls.attr('class') == 'menu-icon-close'){
+            cls.attr('class','menu-icon');
+        }else{
+            cls.attr('class','menu-icon-close');
+        }
+
+        $('.responsive-menu-section').slideToggle();
+    }
+
     $(document).ready(function () {
 
         if(_currentLang == 'en')
         {
-            $('#language_selector_eng').attr('class','active-lang');
-            $('#language_selector_kor').attr('class','');
+            $('.language_selector_eng').attr('class','language_selector_eng active-lang');
+            $('.language_selector_kor').attr('class','language_selector_kor');
         }
         else
         {
-            $('#language_selector_kor').attr('class','active-lang');
-            $('#language_selector_eng').attr('class','');
+            $('.language_selector_kor').attr('class','language_selector_kor active-lang');
+            $('.language_selector_eng').attr('class','language_selector_eng');
         }
 
         const logoLinkElem = $('#logoLink');
         logoLinkElem.attr('href', logoLinkElem.attr('href') + _currentLang);
 
-        $('#mainMenu').find('a').each(function (index, currentElement) {
+        $('#mainMenu').find('a').each(function () {
+            if($(this).attr('data-islink') != 'false'){
+                const href = $(this).attr('href');
+                $(this).attr('href', href + _currentLang);
+            }
+        });
+
+        $('#resMenu').find('a').each(function () {
             if($(this).attr('data-islink') != 'false'){
                 const href = $(this).attr('href');
                 $(this).attr('href', href + _currentLang);
@@ -118,13 +151,60 @@
 
         getLanguage(_currentLang, function () {
             // refresh lang file
-            $('#menu_section_id').find('.multi-lang-class').each(function (index, currentElement) {
+            $('#menu_section_id').find('.multi-lang-class').each(function () {
                 const id = $(this).attr('lang-id');
                 if(id != null){
                     const str = eval("_languageObject"+ id);
                     $(this).html(str);
                 }
             });
+            $('#res_menu_section_id').find('.multi-lang-class').each(function () {
+                const id = $(this).attr('lang-id');
+                if(id != null){
+                    const str = eval("_languageObject"+ id);
+                    $(this).html(str);
+                }
+            });
+            $('.contactUs').attr('href','Location.html?lang=' + _currentLang);
         });
+
+
+        const compNavId = $('#companyNavId');
+        const proNavId = $('#productsNavId');
+
+        $('#companyUL').mouseenter(function () {
+            if(_menuIsOn != "company"){
+                _menuIsOn = "company";
+                if(!compNavId.hasClass('border-red-undermenuitem')){
+                    compNavId.addClass('border-red-undermenuitem')
+                }
+            }
+        });
+        $('#companyUL').mouseleave(function () {
+            if(_menuIsOn != ""){
+                _menuIsOn = "";
+                if(compNavId.hasClass('border-red-undermenuitem')){
+                    compNavId.removeClass('border-red-undermenuitem')
+                }
+            }
+        });
+
+        $('#productsUL').mouseenter(function () {
+            if(_menuIsOn != "pros"){
+                _menuIsOn = "pros";
+                if(!proNavId.hasClass('border-red-undermenuitem')){
+                    proNavId.addClass('border-red-undermenuitem')
+                }
+            }
+        });
+        $('#productsUL').mouseleave(function () {
+            if(_menuIsOn != ""){
+                _menuIsOn = "";
+                if(proNavId.hasClass('border-red-undermenuitem')){
+                    proNavId.removeClass('border-red-undermenuitem')
+                }
+            }
+        });
+
     });
 </script>
