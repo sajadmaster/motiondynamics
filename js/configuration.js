@@ -61,7 +61,7 @@ function load_header_section(elem) {
 }
 
 function getLanguage(lang, onGetLanguage) {
-    $.getJSON('sources/languages/'+lang+'.jsonp', function(json) {
+    $.getJSON('sources/languages/'+lang+'.json', function(json) {
         _languageObject = json;
         if(onGetLanguage != null){
             onGetLanguage();

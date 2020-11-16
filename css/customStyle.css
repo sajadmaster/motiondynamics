@@ -1,3 +1,72 @@
+.btnBlue{
+    float: left;
+    background: rgb(34,148,251);
+    color: #ffffff !important;
+    padding: 10px;
+    border-radius: 8px;
+    position: relative;
+    padding-right: 40px;
+    padding-left: 20px;
+}
+.btnBlue img{
+    position: absolute;
+    right: 20px;
+    width: 20px;height: 20px;
+    top: 0;bottom: 0;
+    margin: auto;
+}
+.testEvaluationBox{
+    width: 100%;
+    background: #ffffff;
+    box-shadow: #dddddd 1px -1px 20px 1px;
+    min-height: 200px;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    float: left;
+}
+.testEvaluationBox .badge{
+    display: flex;
+    background: rgb(34,148,251);
+    margin-left: -10px;
+    margin-top: -10px;
+    color: #ffffff;
+    float: left;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    vertical-align: middle;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+
+    font-size: 18px;
+    font-weight: 500;
+}
+.testEvaluationBox .capt{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    margin-top: 35px;
+    transform: translate(-50%, -50%);
+    font-weight: 600;
+}
+.testEvaluationBox .img{
+    position: absolute;
+    margin: 50px auto;
+    top: 0;bottom: 0;right: 0;left: 0;
+    width: 70px;
+    height:70px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 35px;
+    border: 2px solid #d1d8e0;
+}
+.testEvaluationBox .img img{
+    width: 100%;
+}
+
 .responsive-menu-section
 {
     padding:0;
@@ -107,8 +176,20 @@
     width:100%;
 }
 
+.menuForceLeftRight{
+    margin-right: 435px; margin-left: 15px;
+}
+
+@media (max-width:1200px)
+{
+    .menuForceLeftRight{
+        margin-right: 335px; margin-left: 15px;
+    }
+}
+
 @media (max-width:800px)
 {
+
     #mobile_oc{
         display: block;
     }

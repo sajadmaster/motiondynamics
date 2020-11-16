@@ -42,8 +42,8 @@
                 <li><a href="stablizer.html?lang=" class="multi-lang-class" lang-id="['business']['top_menu']['sub_2']"></a></li>
                 <li><a href="usbtype.html?lang=" class="multi-lang-class" lang-id="['business']['top_menu']['sub_3']"></a></li>
                 <li><a href="arvr.html?lang=" class="multi-lang-class" lang-id="['business']['top_menu']['sub_4']"></a></li>
-                <li><a href="smartfarm.html?lang=" class="multi-lang-class" lang-id="['business']['top_menu']['sub_5']"></a></li>
                 <li><a href="MilitaryTrainingEducation.html?lang=" class="multi-lang-class" lang-id="['business']['top_menu']['sub_6']"></a></li>
+                <li><a href="smartfarm.html?lang=" class="multi-lang-class" lang-id="['business']['top_menu']['sub_5']"></a></li>
               </ul>
             </div>
           </div>
@@ -64,12 +64,10 @@
           <div class="col-12 business-section-content-title">
             <h1 class="multi-lang-class" lang-id="['business']['system_arc']"></h1>
           </div>
-          <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 business-section-m29">
-            <img src="img/m29.png" alt="img">
+          <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 business-section-m29 mt-1 mb-5">
+            <img id="imgMotPlat" src="img/Picture4.jpg" alt="img" style="width: 100%">
           </div>
-          <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 business-section-m83">
-            <img src="img/m83.png" alt="img">
-          </div>
+          <div class="col-12 col-sm-12 col-md-1 col-lg-1 col-xl-1 business-section-m83"></div>
           <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 business-section-ul">
             <ul>
               <li>
@@ -174,8 +172,21 @@
           <div class="col-12 business-section-content-title">
             <h1 class="multi-lang-class" lang-id="['business']['interpretation']"></h1>
           </div>
-          <div class="col-12 business-section-g36">
-            <img src="img/g36.png" alt="img">
+          <div class="row col-12 business-section-g36">
+            <div class="col-12 col-md-4 col-lg-4 col-xl-4">
+                <img src="img/mot-01.png" alt="img">
+            </div>
+            <div class="col-12 col-md-4 col-lg-4 col-xl-4">
+              <img src="img/mot-02.png" alt="img">
+            </div>
+            <div class="col-12 col-md-4 col-lg-4 col-xl-4">
+              <div class="row">
+                <div class="col-6"><img src="img/mot-03.png" alt="img" style="width: 100%;"></div>
+                <div class="col-6"><img src="img/mot-04.png" alt="img" style="width: 100%;"></div>
+                <div class="col-6"><img src="img/mot-05.png" alt="img" style="width: 100%;"></div>
+                <div class="col-6"><img src="img/mot-06.png" alt="img" style="width: 100%;"></div>
+              </div>
+            </div>
           </div>
           <div class="col-12 business-section-table business-section-bottomtable">
             <table>
@@ -255,6 +266,12 @@
                     const href = $(this).attr('href');
                     $(this).attr('href', href + _currentLang);
                 });
+
+                if(_currentLang == 'kr'){
+                    $('#imgMotPlat').attr('src','img/Picture3.jpg');
+                }else{
+                    $('#imgMotPlat').attr('src','img/Picture4.jpg');
+                }
 
                 convertAllFooterLink();
 

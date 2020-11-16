@@ -6,7 +6,7 @@
                     <img src="img/logo.png" alt="">
                 </a>
             </div>
-            <div class="ul-section d-none d-md-block col-md-7">
+            <div class="ul-section d-none d-lg-block d-xl-block col-7 col-lg-8 col-xl-7">
                 <ul id="mainMenu">
                     <li><a id="companyNavId" data-islink="false" style="cursor:pointer;margin-right: 30px;" class="multi-lang-class " lang-id="['menu']['menu_1']['company']"></a>
                         <div class="menu-dropdown">
@@ -17,7 +17,7 @@
                                     <li><a href="OrganizationChart.html?lang=" class="multi-lang-class" lang-id="['menu']['menu_1']['sub_3']"></a></li>
                                     <li><a href="Location.html?lang=" class="multi-lang-class" lang-id="['menu']['menu_1']['sub_4']"></a></li>
                                 </ul>
-                                <ul id="productsUL" style="margin-right: 265px; margin-left: 15px;">
+                                <ul id="productsUL" class="menuForceLeftRight" >
                                     <li><a href="business.html?lang=" class="multi-lang-class" lang-id="['menu']['menu_2']['sub_1']"></a></li>
                                     <li><a href="stablizer.html?lang=" class="multi-lang-class" lang-id="['menu']['menu_2']['sub_2']"></a></li>
                                     <li><a href="usbtype.html?lang=" class="multi-lang-class" lang-id="['menu']['menu_2']['sub_3']"></a></li>
@@ -29,10 +29,11 @@
                         </div>
                     </li>
                     <li><a id="productsNavId" style="margin-right: 30px;" href="business.html?lang=" class="multi-lang-class" lang-id="['menu']['menu_2']['products']"></a></li>
-                    <li><a style="margin-right: 30px;" href="promotion.html?lang=" class="multi-lang-class" lang-id="['menu']['menu_3']['promotion']"></a></li>
+                    <li><a style="margin-right: 30px;" href="testEvaluation.html?lang=" class="multi-lang-class" lang-id="['menu']['menu_3']['test']"></a></li>
+                    <li><a style="margin-right: 30px;" href="promotion.html?lang=" class="multi-lang-class" lang-id="['menu']['menu_4']['promotion']"></a></li>
                 </ul>
             </div>
-            <div class="button-section d-none d-md-block col-md-3">
+            <div class="button-section d-none d-lg-block d-xl-block col-3 col-lg-2 col-xl-3">
                 <ul>
                     <li class="language_selector_kor" ><a href="index.html?lang=kr" class="multi-lang-class" lang-id="['header']['kr_lang_abr']"></a></li>
                     <li class="language_selector_eng active-lang"><a href="index.html?lang=en" class="multi-lang-class" lang-id="['header']['en_lang_abr']"></a></li>
@@ -42,14 +43,14 @@
                     </li>
                 </ul>
             </div>
-            <div onclick="toggleMenu();" class="responsive-menu-icon col-3 col-sm-3 d-md-none d-sm-block">
+            <div onclick="toggleMenu();" class="responsive-menu-icon col-3 col-md-10 col-lg-10 col-sm-3 d-block d-lg-none d-xl-none">
                 <div id="imgBurgerMenuId" class="menu-icon"></div>
             </div>
         </div>
     </div>
 </section>
 <!-- responsive menu -->
-<section class="responsive-menu-section d-md-none" id="res_menu_section_id">
+<section class="responsive-menu-section d-lg-none d-xl-none" id="res_menu_section_id">
     <ul id="resMenu">
         <li>
             <a data-islink="false" style="cursor:pointer;">
@@ -80,19 +81,19 @@
             </ul>
         </li>
         <li>
+            <a href="testEvaluation.html?lang=">
+                <span class="multi-lang-class" lang-id="['menu']['menu_3']['test']"></span>
+                <div class="clearfix"></div>
+            </a>
+        </li>
+        <li>
             <a href="promotion.html?lang=">
-                <span class="multi-lang-class" lang-id="['menu']['menu_3']['promotion']"></span>
+                <span class="multi-lang-class" lang-id="['menu']['menu_4']['promotion']"></span>
                 <div class="clearfix"></div>
             </a>
         </li>
         <li>
             <a class="contactUs" href="Location.html?lang=">
-                <span class="multi-lang-class" lang-id="['header']['contact_us']"></span>
-                <div class="clearfix"></div>
-            </a>
-        </li>
-        <li>
-            <a href="#" data-islink="false">
                 <span class="multi-lang-class" lang-id="['header']['contact_us']"></span>
                 <div class="clearfix"></div>
             </a>
