@@ -165,14 +165,11 @@
 {
     position:relative;
     text-align:right;
-    height:450px;
-    width:100%;
 }
 .gmap_canvas
 {
     overflow:hidden;
     background:none!important;
-    height:450px;
     width:100%;
 }
 
@@ -377,22 +374,19 @@
     .middle-subcontent .map-section .map-section--map {
         margin-top: 15px;
     }
-    .middle-subcontent .map-section .map-section--bmbar div {
-        display: flex;
-        align-items: center;
-        width: 100%;
-        height: auto;
+    .middle-subcontent .map-section .map-section--bmbar div.pding {
         background: #f0f3f8;
+        padding: 20px;
     }
 
 
     .mapouter
     {
-        height:auto;
+
     }
     .gmap_canvas
     {
-        height:auto;
+
     }
 
 

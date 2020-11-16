@@ -64,6 +64,9 @@
 
                 convertAllFooterLink();
 
+                $('.navm-company').addClass('active');
+                $('.navm-ceo').addClass('active');
+
                 bodyElement.find('.multi-lang-class').each(function (index, currentElement) {
                     const id = $(this).attr('lang-id');
                     if(id != null){

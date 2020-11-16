@@ -249,6 +249,10 @@ body {
   border-bottom: #ee5253 solid 4px;
 }
 
+#header .menu-section .ul-section ul#mainMenu > li > a.active {
+  border-bottom: #ee5253 solid 4px;
+}
+
 .border-red-undermenuitem
 {
   transition: 300ms all ease;
@@ -292,6 +296,9 @@ body {
   font-size: 15px;
   color: #222222;
   letter-spacing: -0.5px;
+}
+.ul-section .menu-dropdown ul li a.active {
+  color: #ee5253;
 }
 .ul-section .menu-dropdown ul li a:hover {
   color: #ee5253;
@@ -946,17 +953,18 @@ body {
 .middle-subcontent .map-section .map-section--map {
   margin-top: 50px;
 }
-.middle-subcontent .map-section .map-section--bmbar div {
+.middle-subcontent .map-section .map-section--bmbar div.pding {
   background: #f0f3f8;
+  padding: 20px;
 }
 .middle-subcontent .map-section .map-section--bmbar div h4 {
   font-weight: 700;
   color: #1b69b2;
   font-size: 18px;
-  float: left;
+  /*float: left;*/
 }
 .middle-subcontent .map-section .map-section--bmbar div h3 {
-  float: left;
+  /*float: left;*/
 }
 .middle-subcontent .map-section .map-section--bmbar div h3 span {
   color: #1b69b2;

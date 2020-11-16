@@ -71,22 +71,19 @@
           <div class="col-12">
             <!-- HQ Tab -->
             <div class="tabController" id="tab1">
-              <div class="col-12 map-section--map">
-                <div class="mapouter"><div class="gmap_canvas">
-                  <!--<iframe width="100%" height="450" id="gmap_canvas2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6468.167730832458!2d127.1692497276739!3d35.84694706726395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3570225484e63a03%3A0x83ebc082671e7064!2sWonsanjeong-gil%2C%20Sanjeong-dong%2C%20Deokjin-gu%2C%20Jeonju%2C%20Jeollabuk-do%2C%20South%20Korea!5e0!3m2!1sen!2sil!4v1604753686030!5m2!1sen!2sil" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>-->
-                  <img src="img/hqMap.png" width="100%">
+              <div class="col-12 map-section--map" style="margin-bottom: 0; padding-bottom: 0;">
+                <div class="mapouter" style="margin-bottom: 0; padding-bottom: 0;">
+                  <div class="gmap_canvas" style="margin-bottom: 0; padding-bottom: 0;">
+                    <img src="img/hqMap.png" style="width: 100%;">
                 </div>
                 </div>
               </div>
-              <div class="col-12 map-section--bmbar">
-                <div class="row" style="margin: 0;">
-                  <div class="col-12 col-md-8">
-                    <h4 class="d-none d-md-block" style="font-size: 16px;">
-                      <span class="multi-lang-class" lang-id="['location']['adr_title']"></span>
-                      &nbsp;&nbsp;
-                      <h3 style="font-size: 15px;">
-                        <span style="font-size: 15px;font-weight: 400;color: #000;" class="multi-lang-class" lang-id="['location']['hq_adr']"></span>
-                      </h3>
+              <div class="col-12 map-section--bmbar" style="margin-top: -10px; padding-top: 0;">
+                <div class="row pding" style="margin: 0;">
+                  <div class="col-12 col-md-8 mb-3 mb-md-0">
+                    <h4 style="font-size: 16px;">
+                      <span class="multi-lang-class" style="margin-right: 10px;" lang-id="['location']['adr_title']"></span>
+                      <span style="font-size: 15px;font-weight: 400;color: #000;" class="multi-lang-class" lang-id="['location']['hq_adr']"></span>
                     </h4>
                   </div>
                   <div class="col-12 col-md-4">
@@ -123,14 +120,30 @@
                   </div>
                 </div>
               </div>
-              <div class="col-12 map-section--bmbar">
-                <div>
-                  <h4 class="multi-lang-class" style="font-size: 16px;" lang-id="['location']['adr_title']">위치</h4>
-                  <h3 class="multi-lang-class" style="font-size: 15px;" lang-id="['location']['adr']"></h3>
-                  <h3>
-                    <span class="multi-lang-class" style="text-transform: capitalize;font-size: 16px;" lang-id="['footer']['tel']"></span> <label style="font-size: 15px;">070-4870-3955</label>
-                    <span class="multi-lang-class" style="text-transform: capitalize;font-size: 16px;" lang-id="['footer']['fax']"></span> <label style="font-size: 15px;">070-8270-3955</label>
-                  </h3>
+              <div class="col-12 map-section--bmbar" style="margin-top: -10px; padding-top: 0;">
+                <div class="row pding" style="margin: 0;">
+                  <div class="col-12 col-md-8 mb-3 mb-md-0">
+                    <h4 style="font-size: 16px;">
+                      <span class="multi-lang-class" style="margin-right: 10px;" lang-id="['location']['adr_title']"></span>
+                      <span style="font-size: 15px;font-weight: 400;color: #000;" class="multi-lang-class" lang-id="['location']['adr']"></span>
+                    </h4>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="row">
+                      <div class="col-12 col-md-6">
+                        <h3>
+                          <span class="multi-lang-class" style="text-transform: capitalize;font-size: 16px;" lang-id="['footer']['tel']"></span>
+                          <label style="font-size: 15px;">070-4870-3955</label>
+                        </h3>
+                      </div>
+                      <div class="col-12 col-md-6">
+                        <h3>
+                          <span class="multi-lang-class" style="text-transform: capitalize;font-size: 16px;" lang-id="['footer']['fax']"></span>
+                          <label style="font-size: 15px;">070-8270-3955</label>
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -163,6 +176,9 @@
               }else{
                   $('#factoryImg > img').attr('src','img/factoryImgEN.png');
               }
+
+              $('.navm-company').addClass('active');
+              $('.navm-location').addClass('active');
 
               bodyElement.find('.multi-lang-class').each(function (index, currentElement) {
                   const id = $(this).attr('lang-id');
