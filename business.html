@@ -55,11 +55,11 @@
       <div class="container">
         <div class="row business-section">
           <div class="col-12 business-section-title-text">
-            <h4>Motion platfotm</h4>
+            <h4>Motion platform</h4>
             <h1 class="multi-lang-class" lang-id="['business']['caption1']"></h1>
           </div>
-          <div class="col-12 business-section-m632">
-            <img src="img/m632.png" alt="img">
+          <div class="col-12 col-md-6 offset-md-3 business-section-m632">
+            <img src="img/m632.png" alt="img" style="width: 100%;">
           </div>
           <div class="col-12 business-section-content-title">
             <h1 class="multi-lang-class" lang-id="['business']['system_arc']"></h1>
@@ -238,7 +238,7 @@
           <div class="col-12 business-section-contactus">
             <div>
               <h2 class="multi-lang-class" lang-id="['business']['blue_card']['title']"></h2>
-              <button class="multi-lang-class" lang-id="['business']['blue_card']['button']"></button>
+              <a id="btnContactUs" href="Location.html?lang="><button class="multi-lang-class" lang-id="['business']['blue_card']['button']"></button></a>
             </div>
           </div>
         </div>
@@ -273,6 +273,8 @@
                     $('#imgMotPlat').attr('src','img/Picture4.jpg');
                 }
 
+                const cusBtn = $('#btnContactUs');
+                cusBtn.attr('href',cusBtn.attr('href') + _currentLang);
                 $('.navm-pro').addClass('active');
                 $('.navm-motion').addClass('active');
 

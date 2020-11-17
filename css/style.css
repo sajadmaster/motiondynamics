@@ -1409,7 +1409,8 @@ body {
   float: left;
   display: flex;
   justify-content: center;
-  align-items: center;
+  margin-top: 8px;
+  align-items: flex-start;
 }
 .middle-subcontent .business-section .business-section-ul ul li > .uldiv-23 h4 {
   color: white;
@@ -1417,8 +1418,8 @@ body {
   width: 22px;
   background-color: #004098;
   border-radius: 50px;
-  padding: 0 7px;
   font-size: 14px;
+  padding-left: 7.5px;
   position: relative;
 }
 .middle-subcontent .business-section .business-section-ul ul li > .uldiv-24 {

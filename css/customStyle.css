@@ -420,10 +420,19 @@
         margin-right: 7%;
     }
     .business-section{
-        text-align: center;
+        /*text-align: center;*/
     }
     .history-section--imgs{
         display: none;
+    }
+}
+
+@media (min-width: 400px) {
+    .sub2chart-section--box-customized {
+        border: solid 1px #cccccc;
+        width: auto;
+        height: auto;
+        margin: 0 !important;
     }
 }
 
