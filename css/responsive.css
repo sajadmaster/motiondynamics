@@ -219,10 +219,10 @@
     ##Screen = B/w 768px to 1024px
 */
 @media (min-width: 768px) and (max-width: 1024px) {
-  #header .menu-section .ul-section ul li > a {
-    font-size: 14px;
-    padding: 15px 10px;
-  }
+  /*#header .menu-section .ul-section ul li > a {*/
+    /*font-size: 14px;*/
+    /*padding: 15px 10px;*/
+  /*}*/
 
   .content-slider-section .content-slider-section--info {
     padding-left: 15px;
