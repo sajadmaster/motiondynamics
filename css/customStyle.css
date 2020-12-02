@@ -174,13 +174,19 @@
 }
 
 .menuForceLeftRight{
-    margin-right: 435px; margin-left: 15px;
+    margin-right: 430px; margin-left: 0;
+}
+.menuForceLeftRightKR{
+    margin-right: 340px; margin-left: 25px;
 }
 
 @media (max-width:1200px)
 {
+    .menuForceLeftRightKR{
+        margin-right: 245px; margin-left: 30px;
+    }
     .menuForceLeftRight{
-        margin-right: 335px; margin-left: 15px;
+        margin-right: 335px; margin-left: 0;
     }
 }
 
