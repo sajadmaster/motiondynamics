@@ -1,0 +1,36 @@
+[1115/104826.862:INFO:CONSOLE(1)] "Long rAF frame-time", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%202020/Required/www-rich-tooltips/build/external.js (1)
+[1115/104826.976:ERROR:mf_helpers.cc(14)] Error in dxva_video_decode_accelerator_win.cc on line 1612
+[1115/104826.976:ERROR:mf_helpers.cc(14)] Error in dxva_video_decode_accelerator_win.cc on line 842
+[1115/104827.013:WARNING:angle_platform_impl.cc(52)] compileToBinary(230): 
+C:\fakepath(69,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(77,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[1115/105922.870:ERROR:mf_helpers.cc(14)] Error in dxva_video_decode_accelerator_win.cc on line 1612
+[1115/105922.870:ERROR:mf_helpers.cc(14)] Error in dxva_video_decode_accelerator_win.cc on line 842
+[1115/105923.181:ERROR:mf_helpers.cc(14)] Error in dxva_video_decode_accelerator_win.cc on line 1612
+[1115/105923.182:ERROR:mf_helpers.cc(14)] Error in dxva_video_decode_accelerator_win.cc on line 842
+[1115/105923.488:ERROR:mf_helpers.cc(14)] Error in dxva_video_decode_accelerator_win.cc on line 1612
+[1115/105923.488:ERROR:mf_helpers.cc(14)] Error in dxva_video_decode_accelerator_win.cc on line 842
+[1115/105923.802:ERROR:mf_helpers.cc(14)] Error in dxva_video_decode_accelerator_win.cc on line 1612
+[1115/105923.802:ERROR:mf_helpers.cc(14)] Error in dxva_video_decode_accelerator_win.cc on line 842
+[1115/105924.115:ERROR:mf_helpers.cc(14)] Error in dxva_video_decode_accelerator_win.cc on line 1612
+[1115/105924.115:ERROR:mf_helpers.cc(14)] Error in dxva_video_decode_accelerator_win.cc on line 842
+[1115/150454.750:ERROR:media_internals.cc(112)] Cannot get RenderProcessHost
+[1115/174726.411:INFO:CONSOLE(1)] "Long rAF frame-time", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%202020/Required/www-rich-tooltips/build/external.js (1)
+[1115/174726.520:ERROR:mf_helpers.cc(14)] Error in dxva_video_decode_accelerator_win.cc on line 1612
+[1115/174726.521:ERROR:mf_helpers.cc(14)] Error in dxva_video_decode_accelerator_win.cc on line 842
+[1115/174726.558:WARNING:angle_platform_impl.cc(52)] compileToBinary(230): 
+C:\fakepath(69,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(77,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[1115/175345.263:ERROR:media_internals.cc(112)] Cannot get RenderProcessHost
+[1202/144214.009:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[1202/144219.023:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[1202/144224.042:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[1202/144229.056:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[1202/144234.070:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[1202/144239.087:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[1202/144244.092:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[1202/144249.098:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[1202/144254.104:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[1202/144259.109:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
